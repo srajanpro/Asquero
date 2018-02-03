@@ -1,0 +1,148 @@
+.main-head{
+	/*height:50px;*/
+	position:fixed;
+	top:0px;
+	background-color:#E90000/*#FF0000*//*#FF6E33*//*#A93226*//*#F2F3F4*//*#B30000*//*#922B21*/;
+	/*background-image: url("pexels-photo-819848.jpeg");*/
+	background-repeat:no-repeat;
+	background-size: cover;
+	width:50%;
+	z-index:999;
+	color:white;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-head{
+        width:100%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:992px) {
+    .main-head{
+        width:100%;
+    }
+}
+
+/*#top-bar{
+	height:5px;
+	background-color:#922B21;
+	color:red;
+	font-size:0px;
+	width:100%;
+}*/
+
+#hello_message{
+	margin:1.5% 1% 1.5% 0%;
+	/*border:2px solid #922B21;*/
+	text-align:center;
+	/*border-radius:5px;*/
+	color:white;
+	font-size:15px;
+	/*font-weight:bold;
+	padding:.5%;*/
+	float:right;
+}
+
+#user-search{
+	width:80%;
+	height:50px;
+	margin:2% 2% 2% 10%;
+	font-size:120%;
+	padding-left:2%;
+	align-content:center;
+	clear:both;
+}
+
+#usersearchhead{
+	position:fixed;
+	top:0px;
+	width:100%;
+	background-color:#922B21;
+	z-index:9999;
+	display:none;
+}
+
+#asquero-logo{
+	margin:1.5% 1% 1.5% 5%;
+	/*background-color:orange;*/
+	float:left;
+}
+
+#asquero-logo:hover{
+	cursor:pointer;
+}
+
+#usersignin, #userforum, #userwrite, #userquestion, #userjas, #usersearchicon, #usersignout, #useraccount{
+	margin:1.5% 1% 1.5% 0%;
+	/*border:2px solid white;*/
+	border-radius:5px;
+	float:right;
+	/*background-color:orange;*/
+	font-size:15px;
+	text-decoration:none;
+	color:white;
+}
+
+#usersignin:hover, #userforum:hover, #userwrite:hover, #userquestion:hover, #userjas:hover , #usersearchicon:hover, #usersignout:hover, #useraccount:hover{
+	/*color:#922B21;*/
+	cursor:pointer;
+	font-weight:bold;
+}
+
+#forumlink, #writelink, #jaslink , #signinlink, #signoutlink, #questionlink, #accountlink{
+	color:black;
+}
+
+#forumlink:hover, #writelink:hover, #jaslink:hover, #signinlink:hover, #signoutlink:hover, #questionlink:hover, #accountlink:hover{
+
+}
+
+@media only screen and (max-width: 768px) {
+    #asquero-logo{
+			margin:3% 0% 3% 5%;
+			/*width:30%;*/
+			/*font-size:500px;*/
+		}
+		#usersignin, #userwrite, #userforum, #userjas , #usersearchicon, #usersignout, #userquestion{
+			margin:3% 3% 3% 0%;
+		}
+		/*body{
+			padding-top:15%;
+		}*/
+}
+
+@media only screen and (min-width: 768px) and (max-width:992px) {
+	#asquero-logo{
+		margin:2% 0% 2% 5%;
+		/*width:30%;*/
+		/*font-size:500px;*/
+	}
+	#usersignin, #userforum, #userwrite, #userjas ,#usersearchicon, #usersignout, #userquestion{
+		margin:2% 2% 2% 0%;
+	}
+	/*body{
+		padding-top:10%;
+	}*/
+}
+
+/*@media only screen and (min-width: 992px) {
+	#asquero-logo{
+		margin:2% 1% 2% 5%;
+		width:10%;
+	}
+	#usersignin, #userwrite, #usersearchicon, #usersignout{
+		margin:1% 1% 1% 0%;
+	}
+}*/
+
+/*#write_svg:hover, #signin_svg:hover, #signout_svg:hover{
+	color:#922B21;
+}*/
+
+#hr-line{
+	background-color:gray;
+	height:2px;
+	clear:both;
+	width:80%;
+	margin-left:10%;
+}

@@ -1,0 +1,38 @@
+$(document).ready(function(){
+	/*$("#usersearchicon").click(function(){
+			$(".mainhead").hide();
+			$("#usersearchhead").show();
+		});
+	$(".section").click(function(){
+			$("#usersearchhead").hide();
+			$(".mainhead").show();
+	});*/
+	//$("#asquero-logo").css({"width":"asqlogowidth","height":"auto"});
+	/*$("#usersignin").hover(function(){
+		$("#signinlink").css("color","#922B21");
+		$("#usersignin").css("background-color","white");
+	},
+	function(){
+		$("#signinlink").css("color","white");
+		$("#usersignin").css("background-color","#922B21");
+	});*/
+
+	/*$("#userwrite").hover(function(){
+		$("#writelink").css("color","#922B21");
+		$("#userwrite").css("background-color","white");
+	},
+	function(){
+		$("#writelink").css("color","white");
+		$("#userwrite").css("background-color","#922B21");
+	});*/
+
+	/*$("#usersearchicon").hover(function(){
+		$("#fa-searchicon").css("color","#922B21");
+		$("#usersearchicon").css("background-color","white");
+	},
+	function(){
+		$("#fa-searchicon").css("color","white");
+		$("#usersearchicon").css("background-color","#922B21");
+	});*/
+	$("#account-tabs").tabs();
+});
